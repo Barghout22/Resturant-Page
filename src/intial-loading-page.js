@@ -8,7 +8,7 @@ function initPage()
     container.appendChild(header);
     const image=document.createElement('img');
     image.classList.add('introImage');
-    image.src='../src/brunoo.jpg';
+    image.src='./images/brunoo.jpg';
     container.appendChild(image);
 
     const intro=document.createElement('p');

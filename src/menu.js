@@ -3,7 +3,7 @@ export function menuDisplay()
     const content=document.querySelector('div#content');
     const image=document.createElement('img');
     image.classList.add('introImage');
-    image.src='../src/deadBruno.jpg';
+    image.src='./images/deadBruno.jpg';
     content.appendChild(image);
 
     const menuItem=document.createElement('p');
