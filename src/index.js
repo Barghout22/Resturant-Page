@@ -19,7 +19,6 @@ buttons.appendChild(Menu);
 
 
 const buttonList=document.querySelectorAll('button');
-console.log(buttonList);
 
 buttonList.forEach(button=>button.addEventListener('click',()=>sortPressedButton(button.className)));
 
